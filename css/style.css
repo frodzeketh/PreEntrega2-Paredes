@@ -256,12 +256,15 @@ main {
    }
    
   
-   
+.navbar-brand img {
+  width: 30px;
+}
 
    
    
-   
-
+#verCarrito img {
+    width: 30px; 
+}
 
 
    
@@ -508,3 +511,74 @@ img {
       width: 100%;
     }
   }
+
+
+
+
+
+
+
+
+
+
+
+  #filter__input {
+    display: block; margin: auto; width: 40%;
+}
+
+#plan{
+    display: none;
+    position: fixed;
+    top: 10%;
+    right: 10%;
+    width: 30%;
+    height: auto;
+    background-color: whitesmoke;
+    z-index: 1001;
+}
+
+#ejercicios {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+}
+
+#ejercicios div {
+    height: 500px;
+    width: 400px;
+    margin-bottom: 10px;
+
+    
+}
+
+#busqueda {
+    text-align: center;
+    font-size: 50px;
+}
+
+.card-title {
+    max-width: 200px;
+    text-align: center;
+}
+
+.card-text {
+    max-width: 200px;
+    text-align: center;
+}
+
+.btn {
+    display: block;
+    margin-left: 75px;
+}
+
+
+
+#items {
+  margin-top: 20px;
+}
+
+#items img {
+  max-width: 100px;
+  max-height: 50px;
+}
